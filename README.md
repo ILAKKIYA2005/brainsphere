@@ -58,4 +58,4 @@ brainsphere/
 1. Download or clone the repository
 
 ```bash
-git clone https://github.com/yourusername/brainsphere.git
+git clone https://github.com/ILAKKIYA2005/brainsphere
