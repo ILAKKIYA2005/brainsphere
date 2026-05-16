@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainSphere</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🧠 BrainSphere</h1>
+        <h2>Smart Quiz & Assessment Platform</h2>
+
+        <div class="quiz-box">
+
+            <div id="question">
+                Question appears here
+            </div>
+
+            <div class="options">
+
+                <button class="option-btn" onclick="checkAnswer(0)" id="btn0"></button>
+
+                <button class="option-btn" onclick="checkAnswer(1)" id="btn1"></button>
+
+                <button class="option-btn" onclick="checkAnswer(2)" id="btn2"></button>
+
+                <button class="option-btn" onclick="checkAnswer(3)" id="btn3"></button>
+
+            </div>
+
+            <div class="bottom-section">
+
+                <p id="score">Score: 0</p>
+
+                <p id="progress">Question: 1/4</p>
+
+                <p id="timer">Time: 15</p>
+
+            </div>
+
+            <button id="next-btn" onclick="nextQuestion()">
+                Next Question
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
